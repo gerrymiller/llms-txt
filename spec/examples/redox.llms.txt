@@ -1,0 +1,13 @@
+openapi: https://developer.redoxengine.com/openapi/v1.yaml
+mcp_endpoint: https://api.redoxengine.com/mcp
+content_schema: https://developer.redoxengine.com/docs/schema.json
+semantic_index: https://developer.redoxengine.com/vectors/redox-index.json
+capabilities:
+  - data.read
+  - api.call
+  - ehr.integration
+  - message.validation
+preferred_roles:
+  - "integration_assistant"
+  - "hl7v2_parser"
+  - "compliance_auditor"

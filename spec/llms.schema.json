@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/llms.schema.json",
+  "title": "llms.txt Schema",
+  "description": "JSON schema for validating llms.txt manifests",
+  "type": "object",
+  "properties": {
+    "openapi": { "type": "string", "format": "uri" },
+    "mcp_endpoint": { "type": "string", "format": "uri" },
+    "a2a_manifest": { "type": "string", "format": "uri" },
+    "content_schema": { "type": "string", "format": "uri" },
+    "semantic_index": { "type": "string", "format": "uri" },
+    "capabilities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "preferred_roles": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["openapi", "capabilities"],
+  "additionalProperties": true
+}

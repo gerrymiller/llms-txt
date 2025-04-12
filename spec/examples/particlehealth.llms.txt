@@ -1,0 +1,14 @@
+openapi: https://docs.particlehealth.com/openapi.yaml
+mcp_endpoint: https://api.particlehealth.com/mcp
+a2a_manifest: https://api.particlehealth.com/a2a/manifest.json
+content_schema: https://docs.particlehealth.com/schema.json
+semantic_index: https://docs.particlehealth.com/vectors/particle-index.json
+capabilities:
+  - patient.match
+  - clinical.query
+  - data.read
+  - api.call
+preferred_roles:
+  - "records_retriever"
+  - "authorization_checker"
+  - "compliance_auditor"
