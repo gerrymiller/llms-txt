@@ -23,3 +23,55 @@ go.work.sum
 
 # env file
 .env
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS Finder folder custom attributes
+Icon?
+
+# macOS metadata
+.Spotlight-V100
+.Trashes
+
+# macOS volume info
+.VolumeIcon.icns
+
+# Mac ._* resource fork files
+*.fseventsd
+*.Spotlight-V100
+*.TemporaryItems
+*.DocumentRevisions-V100
+*.AppleDB
+*.AppleDesktop
+
+# Vim swap/backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Cursor AI Editor files (backup/metadata)
+.cursor-history/
+.cursor/
+
+# IDE/project metadata
+.idea/
+.vscode/
+*.log
+
+# Build output
+/bin/
+/dist/
+/build/
+
+# Compiled binaries (general)
+*.a
+*.o
+*.out
+*.obj
